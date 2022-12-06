@@ -28,18 +28,46 @@ main{
     margin: auto;
 }
 .containerfotos{
-
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
-    /* grid-auto-rows: 20px; */
+    grid-template-columns: repeat(3, 13rem);
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-auto-rows: 9.5rem;
+    justify-content: center;
 }
 .containerfotos > img{
     width: 12rem;
     /* justify-content: center; */
 }
-
-
+.about{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.aboutcolumnas{
+    display: flex;
+    flex-direction: row;
+    padding-left: 25rem;
+    padding-right: 28rem;
+    text-align: initial;
+}
+.contacto{
+    text-align: center;
+   display: block;
+   margin: 0 auto;
+}
+form{
+    text-align: initial;
+    margin-left: 30%;
+}
+input{
+    width: 32rem;
+    border: none;
+    border-bottom: solid;
+}
+#enviar{
+    border: none;
+    width: auto;
+}
 /* *{
     margin:5%;
     padding:0;
