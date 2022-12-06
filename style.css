@@ -1,4 +1,46 @@
-*{
+:root{
+    margin: 0px;
+    padding: 0px;
+}
+.containertop{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+a{
+    text-decoration: none;
+}
+#fotoperfil{
+    width: 9rem;
+    display: block;
+    margin: auto;
+}
+header{
+    text-align: center;
+}
+main{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.containerfotos{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-auto-rows: 20px; */
+}
+.containerfotos > img{
+    width: 12rem;
+    /* justify-content: center; */
+}
+
+
+/* *{
     margin:5%;
     padding:0;
     box-sizing:border-box;
@@ -11,7 +53,7 @@ nav li{
     display: inline-block;
     text-align: center;
     width: 10%;
-}
+} */
 
 /* header{
     position: relative;
